@@ -3,3 +3,5 @@ image:
 vscode:
   extensions:
     - puppet.puppet-vscode@0.28.0:g5CT+jlJywUtP9HoX4DIZg==
+tasks:
+  - init: bolt apply src/*.pp -t localhost
